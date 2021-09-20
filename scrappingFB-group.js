@@ -189,7 +189,7 @@ const DELAY_INPUT = 1;
             });
             console.log(mydata);
             post.removepost();
-            if (posts.length < 50) await scrapData();
+            if (posts.length < 100) await scrapData();
             else {
               return {
                 posts: posts
